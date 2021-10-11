@@ -9,6 +9,53 @@
     <title>Siza</title>
 </head>
 <body>
-    
+    <button class="todo-button" type="submit">
+    </button>
+    <div class="background">
+        <div class="container">
+            <header>
+                <h1>Expence Tracker</h1>
+                <h4 style="font-weight: lighter;font-size: 25px;">Add A New Item</h4>
+            </header>
+            <form action="">
+                <div class="first-input">
+                    <label for="Name">Name
+                    </label>
+                    <input type="text" name="contents" id="Name">
+                </div>
+                <div class="to-flex">
+                    <div class="second-input">
+                        <label for="Date">Date
+                        </label>
+                        <input type="date" name="contents" id="Date">
+                    </div>
+                    <div class="third-input">
+                        <label for="Amount">amount
+                        </label>
+                        <input type="number" name="contents" id="Amount">
+                    </div>  
+                </div>
+                <div class="btndiv">
+                    <button type="submit" id = "add-button"> Add Expence</button>
+                </div>
+            </form>
+            <div class="table">
+                <table id ="tbl"; style="text-align: left ;">
+                    <tr id="head">
+                        <th style="width: 50%;">Name</th>
+                        <th style="width: 20%;">Data</th>
+                        <th style="width: 20%;">Amount</th>
+                        <th id="delete">Delete</th>
+                    </tr>
+                    <tr id="trwillhide">
+                        <td>No expenses added yet!</td>
+                        <td class="dick"></td>
+                        <td class="dick"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./JavaScript.js"></script>
 </body>
 </html>

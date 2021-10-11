@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Major+Mono+Display&display=swap");
+/* font-family: 'Major Mono Display', monospace; */
+/* font-family: 'Bebas Neue', cursive; */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 50px;
+  user-select: none;
+}
+header,
+form {
+  font-family: "Major Mono Display", monospace;
+}
+.background {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Images/cool-background\ \(1\).png");
+  background-size: cover;
+}
+.container {
+  background-color: rgba(155, 155, 155, 0.877);
+  width: 70vw;
+  padding: 50px;
+  margin: 20px auto;
+}
+header {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.to-flex {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+}
+#Name {
+  border: none;
+  border-radius: 29px;
+  font-size: 30px;
+  width: 900px;
+  height: 50px;
+  grid-area: Name;
+  padding-left: 20px;
+}
+#Date {
+  border: none;
+  border-radius: 29px;
+  font-size: 30px;
+  height: 50px;
+  width: 300px;
+  padding-left: 50px;
+  grid-area: Date;
+  margin-top: 30px;
+}
+#Amount {
+  border: none;
+  border-radius: 29px;
+  font-size: 30px;
+  height: 50px;
+  width: 150px;
+  padding-left: 15px;
+  grid-area: Amount;
+  margin-top: 30px;
+}
+.first-input {
+  position: relative;
+  margin-top: 30px;
+}
+.second-input {
+  position: relative;
+}
+.third-input {
+  position: relative;
+}
+.btndiv {
+  display: grid;
+  justify-content: center;
+}
+#add-button {
+  font-size: 40px;
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+#add-button:hover {
+  background-color: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
+  transition: all;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+.table {
+  display: grid;
+  margin-top: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+table,
+td,
+th {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  font-size: 30px;
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+}
+td {
+  padding-left: 10px;
+}
+.dick {
+  border: none;
+}
+#delete {
+  display: none;
+}
+.delbtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+.delbtn:hover {
+  background-color: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
+  transition: all;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+.far {
+  position: absolute;
+  font-size: 25px;
+  top: 7px;
+  right: 9px;
+}
