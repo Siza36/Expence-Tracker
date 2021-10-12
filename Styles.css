@@ -141,3 +141,47 @@ td {
   top: 7px;
   right: 9px;
 }
+@media (max-width: 480px) {
+  .container {
+    background-color: rgb(255, 0, 85);
+    width: 900px;
+    height: 1000px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1536px) {
+  * {
+    font-size: 60px;
+    box-sizing: border-box;
+  }
+  .background {
+    width: 200vw;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+  }
+  #add-button {
+    width: 200px;
+    font-size: 30px;
+  }
+  #Name {
+    width: 550px;
+    font-size: 30px;
+  }
+  #Date {
+    width: 250px;
+    font-size: 30px;
+  }
+  #Amount {
+    width: 200px;
+    font-size: 30px;
+  }
+  .container {
+    width: 1300px;
+    height: 1000px;
+  }
+  table,
+  td,
+  th {
+    font-size: 50px;
+  }
+}
